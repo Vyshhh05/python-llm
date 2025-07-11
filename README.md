@@ -1,19 +1,26 @@
-
 # 🧠 PubMed Papers CLI
 
-A command-line tool to fetch **PubMed research papers** based on a search query and extract useful metadata such as:
-- Author affiliations (academic & non-academic)
-- Company involvement
-- Paper titles
-- Export to CSV
+A Python-based command-line tool to fetch biomedical research papers from **PubMed** using a custom search query. It extracts useful metadata like:
 
-This is especially useful for research analysis, competitive intelligence, or exploring trends in biomedical literature.
+- ✅ Paper Titles
+- 🏢 Author Affiliations (Academic & Industry)
+- 💼 Company Involvement
+- 📧 Author Email Addresses
+
+The results are automatically exported into a clean **CSV file**.
 
 ---
 
-## 🚀 Setup
+## 📸 Demo Screenshot
 
-Install dependencies using [Poetry](https://python-poetry.org/):
+> *(Add a screenshot here showing the CSV output or terminal interaction)*
+
+---
+
+## 🚀 Setup Instructions
+
+### 🔧 1. Clone the Repository
 
 ```bash
-poetry install
+git clone https://github.com/Vyshhh05/python-llm.git
+cd python-llm
